@@ -16,13 +16,14 @@ int main()
     while(arr[i] != -1);
  
  int sum = 0;
- for(int j = 0;j < i; j += 1){
-     sum += arr[j];
+ for(int b = 0;b < i; b += 1){
+     sum += arr[b];
  }
  
  cout << " сум = " << sum << endl;
  
 }
+
 
 1.
 using namespace std;
